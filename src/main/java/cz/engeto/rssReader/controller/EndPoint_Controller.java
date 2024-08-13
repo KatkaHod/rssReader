@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 
 @RestController
-public class EndPoint {
+public class EndPoint_Controller {
 
     @GetMapping("/scifi")
     public String getScifiBook() throws IOException {
